@@ -1,0 +1,9 @@
+{
+  "name": "fern_tts_clean",
+  "version": "v2Pro",
+  "gpt_model": "models/fern_tts_clean-e10.ckpt",
+  "sovits_model": "models/fern_tts_clean_e8_s800.pth",
+  "reference_audio": "refer/fern_tts_clean/fern.wav",
+  "reference_language": "ja",
+  "reference_text": "これだと一週間暮らせるかどうかですね。まったく、無駄遣いばかりするからですよ。"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Voice Model Director"
+  short_description: "Analyze scripts and generate verified GPT-SoVITS voiceovers"
+  default_prompt: "Use $voice-model-director to analyze this script and generate a finished voiceover with the local voice model."

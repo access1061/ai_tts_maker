@@ -56,6 +56,12 @@ ai_tts_maker/
 │   ├── synthesize.ps1              # PowerShell용 합성 매개변수 Wrapper
 │   ├── synthesize.py               # GPT-SoVITS 파이프라인 호출 Python 스크립트
 │   └── train.ps1                   # 데이터 자동 복사 및 Stage 1/2 자동 학습 스크립트
+├── skills/                         # AI 디렉터 및 학습/합성 도구 스킬 킷
+│   └── voice-model-director/       # Voice Model Director 스킬 (설정 탐색, 디렉팅 및 실행)
+│       ├── SKILL.md                # 스킬 정의 및 워크플로우 가이드
+│       ├── agents/openai.yaml      # 에이전트 인터페이스 설정
+│       ├── references/             # 프로젝트 레이아웃 참조 문서
+│       └── scripts/                # 프로젝트 및 환경 자동 탐색 스크립트
 ├── output/                         # 샘플 테스트 출력 음성 (fern_tts_clean_test.wav 등)
 ├── generated/                      # CLI 실행 시 기본 생성 결과 저장 폴더
 ├── voice.json                      # 모델 가중치, 리퍼런스 오디오 경로 및 기본 텍스트 프로필
